@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;PesquisaEleitoral.Controle.preencheQuestionarios()&apos; to &apos;preencheQuestionario&apos;&#x0D;&#x0A;- Original project: &apos;PesquisaEleitoral&apos;&#x0D;&#x0A;- Original element: &apos;PesquisaEleitoral.Controle.preencheQuestionarios()&apos;&#x0D;&#x0A;- Renamed element: &apos;PesquisaEleitoral.Controle.preencheQuestionario()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;preencheQuestionarios&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;PesquisaEleitoral{Controle.java[Controle~preencheQuestionarios" name="preencheQuestionario" references="true" stamp="1370210141284" version="1.0"/>
+</session>

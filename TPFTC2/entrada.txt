@@ -1,0 +1,30 @@
+b. <programa> ::= <lista-comandos> "endp"
+b. <lista-comandos> ::= <comando> | <comando> <lista-comandos>
+b. <comando> ::= <cmd-write> | <cmd-writeln> | <cmd-read> | <cmd-atribuicao> | <cmd-while> | <cmd-goto>
+b. <cmd-write> ::= "write" "(" <palavra> ")" | "write" "(" <variavel> ")"
+b. <cmd-writeln> ::= "writeln"
+b. <cmd-read> ::= "read" "(" <variavel> ")"
+b. <cmd-atribuicao> ::= <variavel> "=" <palavra> | <variavel> "=" <expressao>
+b. <expressao> ::= <expressao> "+" <termo> | <expressao> "-" <termo> | <termo>
+b. <termo> ::= <termo> "*" <fator> | <termo> "/" <fator> | <fator>
+b. <fator> ::= "(" <expressao> ")" | <variavel> | <inteiro>
+b. <cmd-while> ::= "while" "(" <variavel> <op-rel> <variavel> ")" <lista-comandos> "endw"
+b. <cmd-goto> ::= "goto" <label>
+b. <label> ::= <variavel> ":" <comando>
+b. <variavel> ::= "a" | "b" | "c" | "d" | "a" <variavel> | "b" <variavel> | "c" <variavel> | "d" <variavel>
+b. <op-arit> ::= "+" | "-" | "*" | "\"
+b. <op-rel> ::= "=" | ">" | "<"
+b. <palavra> ::= "'" <variavel> "'"
+b. <inteiro> ::= <digito> <inteiro> | <digito>
+b. <digito> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" 
+e.
+a. <programa>
+e.
+d. <label>
+e.
+c. <comando> ::= <cmd-goto>
+e.
+d. <variavel>
+e.
+b. <cmd-atribuicao> ::= "x" "=" <expressao>
+e.
